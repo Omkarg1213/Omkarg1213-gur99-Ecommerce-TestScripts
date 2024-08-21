@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-21T06:49:57Z" name="Default suite" finished-at="2024-08-21T06:50:12Z" duration-ms="14700">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.Ecommerce.TechPandaWebsite.Automation.runnerClass.TestNGCucumberRunner@58be6e8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-21T06:49:57Z" name="Default test" finished-at="2024-08-21T06:50:12Z" duration-ms="14700">
+      <class name="guru99.Ecommerce.TechPandaWebsite.Automation.runnerClass.TestNGCucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:guru99.Ecommerce.TechPandaWebsite.Automation.runnerClass.TestNGCucumberRunner@58be6e8]" started-at="2024-08-21T12:19:57Z" name="setUpClass" finished-at="2024-08-21T12:19:57Z" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c9413d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.Ecommerce.TechPandaWebsite.Automation.runnerClass.TestNGCucumberRunner@58be6e8]" started-at="2024-08-21T12:19:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T12:20:12Z" duration-ms="14438" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Reorder a previous order with updated quantity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TechPanda Website Functionalities]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "guru99.Ecommerce.TechPandaWebsite.Automation.pages.CheckOutPage.paymentMethod()" because "this.checkOutPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "guru99.Ecommerce.TechPandaWebsite.Automation.pages.CheckOutPage.paymentMethod()" because "this.checkOutPage" is null
+	at guru99.Ecommerce.TechPandaWebsite.Automation.stepDefinition.StepDefinition.i_select_payment_method_as_and_continue(StepDefinition.java:326)
+	at guru99.Ecommerce.TechPandaWebsite.Automation.stepDefinition.StepDefinition.i_complete_the_billing_and_shipping_information(StepDefinition.java:454)
+	at ✽.I complete the billing and shipping information(file:///C:/Users/Omkar%20G/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/guru99.Ecommerce.TechPandaWebsite.Automation/src/test/resources/TechPandaWebsiteAutomation.feature:92)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:guru99.Ecommerce.TechPandaWebsite.Automation.runnerClass.TestNGCucumberRunner@58be6e8]" started-at="2024-08-21T12:20:12Z" name="tearDownClass" finished-at="2024-08-21T12:20:12Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- guru99.Ecommerce.TechPandaWebsite.Automation.runnerClass.TestNGCucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
